@@ -8,7 +8,7 @@
 	font-style: normal;
 }
 
-body {margin: 0; padding: 0; margin-top: 0px; font-family: AGO, Tahoma, Geneva, sans-serif; font-size: 14px; font-style: normal; font-weight: 100; color: #5f5f5f;}
+body {margin: 0; padding: 0; font-family: AGO, Tahoma, Geneva, sans-serif; font-size: 14px; font-style: normal; font-weight: 100; color: #5f5f5f;}
 header {background: url(../images/head.png) repeat-x; height: 127px;}
 menu {position: relative; float: right; width: 715px; height: 112px; margin-top: -15px;}
 footer {position: relative; margin: 145px auto 0 auto; width: 1000px; text-align: center;}
@@ -47,43 +47,44 @@ p, li {font-size: 16px;}
 #greetingsBlockInner {width: 1000px; margin: 20px auto 0 auto;}
 #roundButton1 {margin: 40px 200px auto auto;}
 #roundButton2 {margin: 40px 200px auto auto;}
-#slideWrap {position: relative; width: 7680px; height: 445px;}
+#slideWrap {position: relative; width: 9600px; height: 445px;}
 #slideWrapTrailers {position: relative; width: 3840px; height: 445px;}
 #slider {width: 960px; height: 573px; background-color: #f5f5f5; padding: 20px; margin-top: 20px; overflow: hidden;}
 #sliderCars, #sliderTrailers {width: 960px; height: 445px; background-color: #f5f5f5; padding: 20px; margin-top: 20px; overflow: hidden;}
 #sliderContent, #sliderContentTrailers {width: 960px; height: 445px; overflow: hidden; margin: 0 auto;}
 #sliderButtonsBG {position: absolute; bottom: 148px; left: 353px; width: 250px; height: 25px; background-image: url(../images/sliderButtonsBG.png); overflow: hidden; padding: 5px;}
-#sliderButtonsBGCars {position: absolute; width: 405px; bottom: 20px; left: 260px; height: 25px; padding: 5px 5px; background-image: url(../images/sliderButtonsBG4.png); overflow: hidden;}
+#sliderButtonsBGCars {position: absolute; width: 505px; bottom: 20px; left: 260px; height: 25px; padding: 5px 5px; background-image: url(../images/sliderButtonsBG4.png); overflow: hidden;}
 #sliderButtonsBGTrailers {position: absolute; width: 158px; bottom: 20px; left: 420px; height: 25px; padding: 5px 5px; background-image: url(../images/sliderButtonsBG4.png); overflow: hidden;}
-#slideSwitchContainer {width: 430px; height: 25px; margin-left: -5px;}
+#slideSwitchContainer {width: 530px; height: 25px; margin-left: -5px;}
 #slideSwitchContainerTrailsers {width: 183px; height: 25px; margin-left: -5px;}
 #categoriesDescription {width: 960px; padding-bottom: 10px;}
 #cd1 {position: relative; width: 480px; text-align: center;}
 #cd2 {position: relative; width: 480px; text-align: center; margin-left: 480px; margin-top: -44px;}
 #maps {position: absolute; top: 65px; left: 380px;}
-#switch1B, #switch2B, #switch3B, #switch4B, #switch5B, #switch6B, #switch7B, #switch8B {margin-top: 3px;}
+#switch1B, #switch2B, #switch3B, #switch4B, #switch5B, #switch6B, #switch7B, #switch8B, #switch9B, #switch10B {margin-top: 3px;}
 
 .noBorder {text-decoration: none; border: none;}
 .space {position: relative; float: left; width: 10px; height: 112px;}
 .pointText {margin-top: 70px;}
-.menuTextWhite {font-family: AGO, Tahoma, Geneva, sans-serif; font-size: 24px; font-style: normal; font-weight: 100; color: #ffffff;}
-.menuTextGrey {font-family: AGO, Tahoma, Geneva, sans-serif; font-size: 24px; font-style: normal; font-weight: 100; color: #5f5f5f;}
+.menuTextWhite {font-family: AGO, Tahoma, Geneva, sans-serif; font-size: 22px; font-style: normal; font-weight: 100; color: #ffffff;}
+.menuTextGrey {font-family: AGO, Tahoma, Geneva, sans-serif; font-size: 22px; font-style: normal; font-weight: 100; color: #5f5f5f;}
 .headerStyle {font-family: AGO, Tahoma, Geneva, sans-serif; font-size: 36px; font-style: normal; font-weight: 100; color: #5f5f5f;}
-.headerStyleTransition {font-family: AGO, Tahoma, Geneva, sans-serif; font-size: 36px; font-style: normal; font-weight: 100; color: #5f5f5f; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -khtml-transition: all 0.2s ease-in-out;}
-.sliderHeaderStyle {font-family: AGO, Tahoma, Geneva, sans-serif; font-size: 26px; font-style: normal; font-weight: 100; color: #5f5f5f; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -khtml-transition: all 0.2s ease-in-out;}
+.headerStyleTransition {font-family: AGO, Tahoma, Geneva, sans-serif; font-size: 36px; font-style: normal; font-weight: 100; color: #5f5f5f; transition: .2s;}
+.sliderHeaderStyle {font-family: AGO, Tahoma, Geneva, sans-serif; font-size: 26px; font-style: normal; font-weight: 100; color: #5f5f5f; transition: .2s;}
 .sliderButton {position: relative; float: left; width: 479px; height: 108px; text-align: center; line-height: 108px;}
 .footerStyle {font-family: AGO, Tahoma, Geneva, sans-serif; font-size: 12px; font-style: normal; font-weight: 100; color: #5f5f5f;}
-.addressStyle {font-family: AGO, Tahoma, Geneva, sans-serif; font-size: 14px; font-style: normal; font-weight: 100; color: #ababab; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -khtml-transition: all 0.2s ease-in-out;}
+.addressStyle {font-family: AGO, Tahoma, Geneva, sans-serif; font-size: 14px; font-style: normal; font-weight: 100; color: #ababab; transition: .2s;}
 .addressPosition {margin: -90px -38px auto auto;}
 .innerSliderButtonTextPosition {margin-top: -130px;}
 .innerSliderButtonTextPositionCars {margin-top: -130px; margin-left: 60px;}
 .slideItem {position: relative; float: left; width: 960px; height: 445px; overflow: hidden;}
 .slideSwitch {position: relative; float: left; width: 46px; height: 25px; margin-left: 5px; cursor: pointer; background-color: #ffffff;}
-.originalDecoratedFont {ont-family: AGO, Tahoma, Geneva, sans-serif; font-size: 14px; font-style: normal; font-weight: 100; color: #5f5f5f; text-decoration: underline;}
-.transition {-webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -khtml-transition: all 0.5s ease-in-out;}
+.originalDecoratedFont {font-family: AGO, Tahoma, Geneva, sans-serif; font-size: 14px; font-style: normal; font-weight: 100; color: #5f5f5f; text-decoration: underline;}
+.transition {transition: .5s;}
 .blue, .blueLink {color: #62aab8;}
 .carsContainer {width: 100%;}
 .carContainer {display: inline-block; padding: 10px;}
 .borderRight {border-right: 1px solid #ededed;}
 .line {opacity: .7;}
 .carTable {border-collapse: collapse; border: 1px solid #8f8f8f; width: 100%; text-align: center; margin-top: 5px;}
+.carsHeader {width: 100%; text-align: center;}

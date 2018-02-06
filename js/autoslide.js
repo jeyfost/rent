@@ -8,6 +8,8 @@ function autoSlide() {
 	var pic6 = jQuery('#switch6');
 	var pic7 = jQuery('#switch7');
 	var pic8 = jQuery('#switch8');
+	var pic9 = jQuery('#switch9');
+	var pic10 = jQuery('#switch10');
 
 	if(pic1.attr('name') == 'active') {		
 		slideWrap.animate({left: -960}, 500, function() {
@@ -73,13 +75,31 @@ function autoSlide() {
 	}
 
 	if(pic8.attr('name') == 'active') {		
-		slideWrap.animate({left: 0}, 500, function() {
+		slideWrap.animate({left: -7680}, 500, function() {
 			pic8.attr('name', 'notActive');
-			pic1.attr('name', 'active');
+			pic9.attr('name', 'active');
 			pic8.attr('style', '');
-			pic1.attr('style', 'cursor: default; background-color: #62aab8;');
+			pic9.attr('style', 'cursor: default; background-color: #62aab8;');
 		});
 	}
+
+    if(pic9.attr('name') == 'active') {
+        slideWrap.animate({left: -8640}, 500, function() {
+            pic9.attr('name', 'notActive');
+            pic10.attr('name', 'active');
+            pic9.attr('style', '');
+            pic10.attr('style', 'cursor: default; background-color: #62aab8;');
+        });
+    }
+
+    if(pic10.attr('name') == 'active') {
+        slideWrap.animate({left: 0}, 500, function() {
+            pic10.attr('name', 'notActive');
+            pic1.attr('name', 'active');
+            pic10.attr('style', '');
+            pic1.attr('style', 'cursor: default; background-color: #62aab8;');
+        });
+    }
 
 	setTimeout(autoSlide, 5000);
 }
