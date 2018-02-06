@@ -14,6 +14,7 @@ menu {position: relative; float: right; width: 715px; height: 112px; margin-top:
 footer {position: relative; margin: 145px auto 0 auto; width: 1000px; text-align: center;}
 tr, td {border-collapse: collapse; border: 1px solid #8f8f8f;}
 p, li {font-size: 16px;}
+a {text-decoration: none;}
 
 #point1:hover {background: url(../images/activePoint.png);}
 #point2:hover {background: url(../images/activePoint.png);}
@@ -24,6 +25,7 @@ p, li {font-size: 16px;}
 
 .headerStyleTransition:hover {color: #62aab8;}
 .blueLink:hover {text-decoration: underline;}
+.categoryIMG img:hover {opacity: .7;}
 
 #headerContent {position: relative; margin: 0 auto; width: 1000px; height: 127px;}
 #logo {position: relative; float: left; margin-top: 27px; width: 175px; height: 100px; background: url(../images/blue.png) repeat top left; text-align: center;}
@@ -58,8 +60,6 @@ p, li {font-size: 16px;}
 #slideSwitchContainer {width: 530px; height: 25px; margin-left: -5px;}
 #slideSwitchContainerTrailsers {width: 183px; height: 25px; margin-left: -5px;}
 #categoriesDescription {width: 960px; padding-bottom: 10px;}
-#cd1 {position: relative; width: 480px; text-align: center;}
-#cd2 {position: relative; width: 480px; text-align: center; margin-left: 480px; margin-top: -44px;}
 #maps {position: absolute; top: 65px; left: 380px;}
 #switch1B, #switch2B, #switch3B, #switch4B, #switch5B, #switch6B, #switch7B, #switch8B, #switch9B, #switch10B {margin-top: 3px;}
 
@@ -88,3 +88,5 @@ p, li {font-size: 16px;}
 .line {opacity: .7;}
 .carTable {border-collapse: collapse; border: 1px solid #8f8f8f; width: 100%; text-align: center; margin-top: 5px;}
 .carsHeader {width: 100%; text-align: center;}
+.categoryBlock {width: 320px; text-align: center; float: left;}
+.categoryIMG img {transition: .2s;}

@@ -11,6 +11,7 @@
 	<title>Аренда квартир и автомобилей в Могилёве</title>
     
     <script type='text/javascript' src='js/menu.js'></script>
+    <script type='text/javascript' src='js/index.js'></script>
 
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
@@ -111,23 +112,34 @@
             <br />
         </div>
         <div id='categoriesBlock'>
-        	<div id='categoriesDescription'>
-            	<a href='appartments.html' class='noBorder' title='Аренда квартир на сутки'>
-                	<div id='cd1'>
-                		<span class='headerStyleTransition' id='cd1t'>Аренда квартир на сутки</span>
-                	</div>
-                </a>
-                <a href='cars.html' class='noBorder' title='Прокат автомобилей'>
-                    <div id='cd2'>
-                        <span class='headerStyleTransition' id='cd2t'>Прокат автомобилей</span>
-                    </div>
-                </a>
+        	<div class="categoryBlock">
+                <div class="categoryHeader">
+                    <a href="appartments.html"><span class="headerStyleTransition" style="font-size: 18px;" id="flatFont" onmouseover="categoryHover('flat', 'flatFont', 1)" onmouseout="categoryHover('flat', 'flatFont', 0)">Аренда квартир на сутки</span></a>
+                </div>
+                <br />
+                <div class="categoryIMG">
+                    <a href="appartments.html"><img src="images/flat.jpg" id="flat" onmouseover="categoryHover('flat', 'flatFont', 1)" onmouseout="categoryHover('flat', 'flatFont', 0)" /></a>
+                </div>
             </div>
-        	<div id='categoriesInnerBlock'>
-                <a href='appartments.html' class='noBorder'><div id='leftLink' title='Аренда квартир'></div></a>
-               	<div id='centralEmpty'></div>
-                <a href='cars.html' class='noBorder'><div id='rightLink' title='Аренда автомобилей'></div></a>
+        	<div class="categoryBlock">
+                <div class="categoryHeader">
+                    <a href="cars.html"><span class="headerStyleTransition" style="font-size: 18px;" id="carFont" onmouseover="categoryHover('car', 'carFont', 1)" onmouseout="categoryHover('car', 'carFont', 0)">Прокат автомобилей без водителя</span></a>
+                </div>
+                <br />
+                <div class="categoryIMG">
+                    <a href="cars.html"><img src="images/car.jpg" id="car" onmouseover="categoryHover('car', 'carFont', 1)" onmouseout="categoryHover('car', 'carFont', 0)" /></a>
+                </div>
             </div>
+        	<div class="categoryBlock">
+                <div class="categoryHeader">
+                    <a href="cars.html"><span class="headerStyleTransition" style="font-size: 18px;" id="busFont" onmouseover="categoryHover('bus', 'busFont', 1)" onmouseout="categoryHover('bus', 'busFont', 0)">Прокат микроавтобусов без водителя</span></a>
+                </div>
+                <br />
+                <div class="categoryIMG">
+                    <a href="cars.html"><img src="images/bus.jpg" id="bus" onmouseover="categoryHover('bus', 'busFont', 1)" onmouseout="categoryHover('bus', 'busFont', 0)" /></a>
+                </div>
+            </div>
+            <div style="clear: both;"></div>
             <div id='buttonsBlock'>
                	<a href='appartments.html' class='noBorder'>
                     <div class='sliderButton'>
