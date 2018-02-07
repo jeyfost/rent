@@ -84,9 +84,10 @@ a {text-decoration: none;}
 .blue, .blueLink {color: #62aab8;}
 .carsContainer {width: 100%;}
 .carContainer {display: inline-block; padding: 10px;}
-.borderRight {border-right: 1px solid #ededed;}
+.borderLeft {border-left: 1px solid #ededed;}
 .line {opacity: .7;}
 .carTable {border-collapse: collapse; border: 1px solid #8f8f8f; width: 100%; text-align: center; margin-top: 5px;}
 .carsHeader {width: 100%; text-align: center;}
 .categoryBlock {width: 320px; text-align: center; float: left;}
 .categoryIMG img {transition: .2s;}
+.colorCell {background-color: #66aebc; color: #fff;}

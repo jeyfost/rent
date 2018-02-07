@@ -177,7 +177,7 @@
         <center><img src='images/horizontalLine.png' class='noBorder line' /></center>
         <div id='greetingsText'>
             <br />
-            <div style="width: 49.5%; float: left;" class="borderRight">
+            <div style="width: 49.5%; float: left;">
                 <div class="carsHeader menuTextGrey">Легковые автомобили</div>
                 <br /><br />
                 <div class='carContainer borderRight'>
@@ -197,8 +197,8 @@
                     <table class='carTable'>
                         <thead>
                         <tr>
-                            <td><b>Кол-во суток</b></td>
-                            <td><b>Цена, руб.</b></td>
+                            <td class="colorCell">Кол-во суток</td>
+                            <td class="colorCell">Цена, руб.</td>
                         </tr>
                         </thead>
                         <tbody>
@@ -238,8 +238,8 @@
                     <table class='carTable'>
                         <thead>
                         <tr>
-                            <td><b>Кол-во суток</b></td>
-                            <td><b>Цена, руб.</b></td>
+                            <td class="colorCell">Кол-во суток</td>
+                            <td class="colorCell">Цена, руб.</td>
                         </tr>
                         </thead>
                         <tbody>
@@ -280,8 +280,8 @@
                     <table class='carTable'>
                         <thead>
                         <tr>
-                            <td><b>Кол-во суток</b></td>
-                            <td><b>Цена, руб.</b></td>
+                            <td class="colorCell">Кол-во суток</td>
+                            <td class="colorCell">Цена, руб.</td>
                         </tr>
                         </thead>
                         <tbody>
@@ -321,8 +321,8 @@
                     <table class='carTable'>
                         <thead>
                         <tr>
-                            <td><b>Кол-во суток</b></td>
-                            <td><b>Цена, руб.</b></td>
+                            <td class="colorCell">Кол-во суток</td>
+                            <td class="colorCell">Цена, руб.</td>
                         </tr>
                         </thead>
                         <tbody>
@@ -346,7 +346,7 @@
                     </table>
                 </div>
             </div>
-            <div style="width: 49.5%; float: right;">
+            <div style="width: 49.5%; float: right;" class="borderLeft">
                 <div class="carsHeader menuTextGrey">Микроавтобусы</div>
                 <br /><br />
                 <div class='carContainer' style="width: 100%;">
@@ -365,36 +365,8 @@
                     <b>Количество мест:</b> 7 (3+1+1+1+1)
                     <br /><br />
                     Возможно использование для отдыха на природе и  в длительных поездках в качестве автодома (задний диван за 1 минуту трансформируется в большую кровать, на втором ярусе организовываются спальные места для 2-х детей)
-                    <br /><br>
-                    <center><b>Стоимость:</b></center>
-                    <table class='carTable'>
-                        <thead>
-                        <tr>
-                            <td><b>Кол-во суток</b></td>
-                            <td><b>Цена, руб.</b></td>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td class='blue'>90</td>
-                        </tr>
-                        <tr>
-                            <td>2-6</td>
-                            <td class='blue'>75</td>
-                        </tr>
-                        <tr>
-                            <td>7-12</td>
-                            <td class='blue'>65</td>
-                        </tr>
-                        <tr>
-                            <td>от 12</td>
-                            <td class='blue'>договорная</td>
-                        </tr>
-                        </tbody>
-                    </table>
                 </div>
-                <br /><br /><br />
+                <br /><br />
                 <div class='carContainer' style="width: 100%;">
                     <center><b class='blue'>Mercedes-Benz Sprinter 212</b></center>
                     <br /><br />
@@ -409,34 +381,50 @@
                     <b>Тип кузова</b>: автобус легковой категория &laquo;В&raquo;
                     <br />
                     <b>Количество мест:</b> 9 (3+2+2+1+1)
-                    <br /><br>
-                    <center><b>Стоимость:</b></center>
-                    <table class='carTable'>
+                    <br /><br />
+                    <hr style="opacity: .2;" /><br />
+                    <table class="carTable">
                         <thead>
-                        <tr>
-                            <td><b>Кол-во суток</b></td>
-                            <td><b>Цена, руб.</b></td>
-                        </tr>
+                            <tr>
+                                <td class="colorCell">Тарифы</td>
+                                <td class="colorCell">Цена, руб.</td>
+                                <td class="colorCell">Включенный километраж, км</td>
+                                <td class="colorCell">Назначение</td>
+                            </tr>
                         </thead>
                         <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td class='blue'>90</td>
-                        </tr>
-                        <tr>
-                            <td>2-6</td>
-                            <td class='blue'>75</td>
-                        </tr>
-                        <tr>
-                            <td>7-12</td>
-                            <td class='blue'>65</td>
-                        </tr>
-                        <tr>
-                            <td>от 12</td>
-                            <td class='blue'>договорная</td>
-                        </tr>
+                            <tr>
+                                <td>Рабочий</td>
+                                <td class="blue">90</td>
+                                <td>до 500</td>
+                                <td>Путешествие на дальние расстояния, поездки на экскурсии, трансфер, отдых, бизнес.</td>
+                            </tr>
+                            <tr>
+                                <td>Выходного дня</td>
+                                <td class="blue">75</td>
+                                <td>до 350</td>
+                                <td>Отдых, поездка в деревню на выходные, на природу. Поездки на море с семьёй или друзьями.</td>
+                            </tr>
+                            <tr>
+                                <td>Дачный</td>
+                                <td class="blue">65</td>
+                                <td>до 200</td>
+                                <td>Отдых, посещение дач.</td>
+                            </tr>
+                            <tr>
+                                <td>Городской</td>
+                                <td class="blue">55</td>
+                                <td>до 100</td>
+                                <td>Коммерческие цели, покупки, экскурсии по Могилёву.</td>
+                            </tr>
                         </tbody>
                     </table>
+                    <p>При пробеге свыше включенного километража в сутки взимается плата - 10 коп/км.</p>
+                    <ul>
+                        <li>При заказе микроавтобуса на прокат <span class="blue">от 5 дней</span> вы гарантировано получите <span class="blue">скидку в 5%</span></li>
+                        <li>При заказе микроавтобуса на прокат <span class="blue">от 10 дней</span> вы гарантировано получите <span class="blue">скидку в 10%</span></li>
+                        <li>При заказе микроавтобуса на прокат <span class="blue">от 20 дней</span> вы гарантировано получите <span class="blue">скидку в 15%</span></li>
+                    </ul>
                 </div>
             </div>
             <div style="clear: both;"></div>
