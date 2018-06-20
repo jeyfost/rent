@@ -49,15 +49,15 @@ a {text-decoration: none;}
 #greetingsBlockInner {width: 1000px; margin: 20px auto 0 auto;}
 #roundButton1 {margin: 40px 200px auto auto;}
 #roundButton2 {margin: 40px 200px auto auto;}
-#slideWrap {position: relative; width: 10560px; height: 445px;}
+#slideWrap {position: relative; width: 8640px; height: 445px;}
 #slideWrapTrailers {position: relative; width: 3840px; height: 445px;}
 #slider {width: 960px; height: 573px; background-color: #f5f5f5; padding: 20px; margin-top: 20px; overflow: hidden;}
 #sliderCars, #sliderTrailers {width: 960px; height: 445px; background-color: #f5f5f5; padding: 20px; margin-top: 20px; overflow: hidden;}
 #sliderContent, #sliderContentTrailers {width: 960px; height: 445px; overflow: hidden; margin: 0 auto;}
 #sliderButtonsBG {position: absolute; bottom: 148px; left: 353px; width: 250px; height: 25px; background-image: url(../images/sliderButtonsBG.png); overflow: hidden; padding: 5px;}
-#sliderButtonsBGCars {position: absolute; width: 556px; bottom: 20px; left: 260px; height: 25px; padding: 5px 5px; background-image: url(../images/sliderButtonsBG4.png); overflow: hidden;}
+#sliderButtonsBGCars {position: absolute; width: 454px; bottom: 21px; left: 260px; height: 25px; padding: 5px 5px; background-image: url(../images/sliderButtonsBG4.png); overflow: hidden;}
 #sliderButtonsBGTrailers {position: absolute; width: 158px; bottom: 20px; left: 420px; height: 25px; padding: 5px 5px; background-image: url(../images/sliderButtonsBG4.png); overflow: hidden;}
-#slideSwitchContainer {width: 581px; height: 25px; margin-left: -5px; margin-top: -1px;}
+#slideSwitchContainer {width: 479px; height: 25px; margin-left: -5px; margin-top: 0;}
 #slideSwitchContainerTrailsers {width: 183px; height: 25px; margin-left: -5px;}
 #categoriesDescription {width: 960px; padding-bottom: 10px;}
 #maps {position: absolute; top: 65px; left: 380px;}
